@@ -28,14 +28,72 @@ body {
 h1{
        color: cadetblue;
        line-height: 50px;
-
+       /*text-shadow: 0px 1px #cbad00;*/
+       border: solid .4px #cbad00;
+       padding-left: 10px;
+       padding-right: 10px;
 }
 h2 {
        color: cadetblue;
        line-height: 50px;
 }
+
+div.personal {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       border-bottom: solid 1px #cbad00;
+       margin-bottom: 10px;
+}
+
+i.fa-solid.fa-user{
+       font-weight: 900;
+       margin-right: 20px;
+       color: cadetblue;
+}
 ul{
        line-height: 30px;
        text-align: left;
+       padding: 0;
 }
 
+div.estudios {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       border-bottom: solid 1px #cbad00;
+       margin-bottom: 10px;
+}
+
+i.fa-solid.fa-graduation-cap {
+       font-weight: 900;
+       margin-right: 20px;
+       color: cadetblue;
+}
+
+div.trabajo {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       border-bottom: solid 1px #cbad00;
+       margin-bottom: 10px;
+}
+
+i.fa-solid.fa-briefcase {
+       font-weight: 900;
+       margin-right: 20px;
+       color: cadetblue;
+}
+
+div.primero {
+       width: 400px;
+}
+div.segundo {
+       width: 400px;
+}
+div.tercero {
+       width: 400px;
+}
